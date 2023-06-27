@@ -1,0 +1,143 @@
+body {
+    font-family: sans-serif;
+}
+main h1{
+    margin-left: 80px;
+    font-size: 50px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: 0C5AF3;
+}
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: blue;
+    padding: 10px;
+}
+.xcv{
+    margin-left: 30px;
+    margin-right: 350px;
+}
+.rty{
+    display: flex;
+    justify-content: space-between;
+}
+article img{
+    justify-content:space-between;
+}
+.dfg{
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    padding: 9px;
+    font-size: 19px;
+    margin: 45px;
+  
+}
+.ghj{
+    text-align: center;
+}
+section{
+    display: flex;   
+}
+.tgv{
+    margin: 25px;
+}
+footer{
+    background-color: blue;
+    color: white;
+    padding-left: 10px;
+}
+.mnb{
+    margin-right: 50%;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.vhi{
+    padding-top: 30px;
+}
+.g{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.rt{
+    text-align: center;
+}
+footer{
+    padding: 15px;
+}
+.gbl{
+    justify-content: space-around;
+}
+.slider {
+  position: relative;
+  width: 680px;
+  margin: 50px auto;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
+}
+
+.slider input[name="switch"] {
+  display: none;
+}
+
+.switch {
+  position: absolute;
+  left: 0;
+  bottom: -40px;
+  text-align: center;
+  width: 100%;
+}
+.switch label {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  cursor: pointer;
+  margin: 0 3px;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, .8);
+  border-radius: 50%;
+  border: 5px solid #2f363c;
+  background-color: #738290;
+}
+
+#btn1:checked~.switch label[for="btn1"] {
+  background-color: white;
+}
+
+#btn2:checked~.switch label[for="btn2"] {
+  background-color: white;
+}
+
+#btn3:checked~.switch label[for="btn3"] {
+  background-color: white;
+}
+.slider-inner {
+  overflow: hidden;
+}
+
+.slides {
+  width: 300%;
+  transition: all 0.5s;
+}
+
+.slides img {
+  width: 680px;
+  height: 340px;
+  float: left;
+}
+
+#btn1:checked~.slider-inner slides {
+  transform: translate(0);
+}
+
+#btn2:checked~.slider-inner .slides {
+  transform: translate(-680px);
+}
+
+#btn3:checked~.slider-inner .slides {
+  transform: translate(-1360px);
+}
